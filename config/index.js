@@ -34,7 +34,7 @@ module.exports = {
       outputPath: '/common/debug', // 生成目录
       publicPath: '/common/debug', // 注入地址
     },
-    port: 6666,
+    port: 8089,
     host: 'http://localhost:8081',
     assetsRoot: '../assets/',
     assetsPublicPath: '/',

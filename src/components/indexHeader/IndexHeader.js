@@ -29,11 +29,6 @@ export default class IndexHeader extends Component {
             <div className="collapse navbar-collapse" id="example-navbar-collapse" onClick={() => this.toggled()}>
               <ul className="nav navbar-nav">
                 <li className="" ><NavLink to={{ pathname: '/themis-home' }}>首页</NavLink></li>
-                <li className="" ><NavLink to={{ pathname: '/themis-home' }}>购买</NavLink></li>
-                <li className="" ><NavLink to={{ pathname: '/themis-home' }}>出售</NavLink></li>
-                <li className="" ><NavLink to={{ pathname: '/login' }}>发布广告</NavLink></li>
-                <li className="" ><NavLink to={{ pathname: '/themis-home' }}>EXPLORER</NavLink></li>
-                <li className="" ><NavLink to={{ pathname: '/themis-home' }}>钱包</NavLink></li>
               </ul>
               <ul className="nav navbar-nav user">
                 <li className="" ><NavLink to={{ pathname: '/login' }}>登录</NavLink></li>

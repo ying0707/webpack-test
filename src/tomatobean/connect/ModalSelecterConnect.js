@@ -124,7 +124,7 @@ export default function ModalSelecter() {
         if (selects && selects.length) {
           const models = modelStore();
           selects.forEach((slt) => {
-            const model = matchModel(models, slt);
+            const model = matchModel(models, slt) || [];
             // 判断是否是自动缓存模型
             if (model.cache || !isEmpty(model.autowrite)) {
               // 初始化连接计数器

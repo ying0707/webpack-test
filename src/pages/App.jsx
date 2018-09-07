@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import { RootRouteConnect } from '../tomatobean/connect';
 import { Selecter } from '../tomatobean';
 import IndexHeader from '../components/indexHeader/IndexHeader';
-import Footer from '../components/footer';
+// import Footer from '../components/footer';
 import '../styles/index.less';
-import { del } from '../models/worker';
 
-@Selecter(['worker'], { del })
+@Selecter(['worker'])
 @RootRouteConnect
 class App extends Component {
   renderHeader = () => {
